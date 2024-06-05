@@ -34,6 +34,6 @@ jobs:
         DB_CONNECTION: sqlite
         DB_DATABASE: database/database.sqlite
       run: php artisan test
-    - name: Run Migration
-      run: php artisan migrate
+    # - name: Run Migration
+    #   run: php artisan migrate
 
